@@ -1,0 +1,16 @@
+[package]
+name = "default-port"
+description = "trait DefaultPort"
+version = "1.0.0"
+authors = ["Grigoriy Baranov <baranov@w3m.co>"]
+repository = "https://github.com/WatchDG/rust-default-port"
+license = "MIT"
+edition = "2018"
+
+exclude = [
+    ".github",
+    ".gitignore",
+    "README.md"
+]
+
+[dependencies]
