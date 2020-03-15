@@ -1,3 +1,3 @@
 pub trait DefaultPort {
-    fn default_port() -> Option<usize>;
+    fn default_port(&self) -> Option<usize>;
 }
